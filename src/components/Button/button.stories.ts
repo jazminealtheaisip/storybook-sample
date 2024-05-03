@@ -18,11 +18,17 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     children: "Click me",
+    variant: "solid",
+    size: "sm",
+    colorscheme: "primary",
   },
 };
 
 export const Solid: Story = {
   args: {
     children: "Button",
+    variant: "solid",
+    size: "sm",
+    colorscheme: "primary",
   },
 };
